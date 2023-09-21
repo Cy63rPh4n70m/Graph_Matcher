@@ -10,7 +10,7 @@ This algorithm determines whether a graph contains a subgraph
 that is equivalent to a smaller input graph based on edge values
 and the connectiveness.
 
-(The stages are explained in more detail in the comments of `main.py`)
+**(The stages are explained in more detail in the comments of `main.py`)**
 
 It accomplishes this via three stages:
 
