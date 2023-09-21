@@ -1,2 +1,5 @@
 # Graph_Matcher
-test
+Algorithm for solving the graph isomorphism problem
+
+## Explanation of algorithm
+The algorithm 
