@@ -30,4 +30,4 @@ there are no negative ones.
 
 ### STAGE 3
 The algorithm checks if the set of edge values in each of the nodes in the **input graph**
-is a subset of any of the set of edge values in each of the <u>**subgraph nodes**</u>.
+is a subset of any of the set of edge values in each of the **subgraph nodes**.
