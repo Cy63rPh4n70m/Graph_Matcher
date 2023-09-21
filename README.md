@@ -6,7 +6,7 @@ To test the algorithm on graphs from `test_cases/` run `python main.py`
 Test cases contain images of the graphs for validation of results.
 
 (Graphs in the test files are in the form of adjacency lists with a colon
- separating the connection names and edge values for each node)
+ separating the connection names and edge values for each node.)
 
 ## Brief explanation of algorithm
 This algorithm determines whether a graph contains a subgraph
