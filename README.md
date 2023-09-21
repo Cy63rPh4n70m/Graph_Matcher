@@ -1,10 +1,15 @@
+## Requirements
+To install requirements execute `pip install -r requirements.txt`
+
+## Running the code
+To test the algorithm on graphs from `test_cases/` run `python main.py`
+
 ## Brief explanation of algorithm
 This algorithm determines whether a graph contains a subgraph
 that is equivalent to a smaller input graph based on edge values
 and the connectiveness.
 
-(More explanations of how the algorithm performs the three stages
- are detailed in the comments of `main.py`)
+(The stages are explained in more detail in the comments of `main.py`)
 
 It accomplishes this via three stages:
 
@@ -24,4 +29,4 @@ there are no negative ones.
 
 ### STAGE 3
 The algorithm checks if the set of edge values in each of the nodes in the **input graph**
-is a subset of any of the set of edge values in each of the **subgraph nodes**
+is a subset of any of the set of edge values in each of the **subgraph nodes**.
