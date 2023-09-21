@@ -3,6 +3,7 @@ To install requirements execute `pip install -r requirements.txt`
 
 ## Running the code
 To test the algorithm on graphs from `test_cases/` run `python main.py`
+Test cases contain images of the graphs for validation of results.
 
 ## Brief explanation of algorithm
 This algorithm determines whether a graph contains a subgraph
