@@ -1,8 +1,5 @@
-# Graph_Matcher
-An algorithm that solves the subgraph isomorphism problem
-
 ## Explanation of algorithm
-The algorithm determines whether a graph contains a subgraph
+Slgorithm determines whether a graph contains a subgraph
 that is equivalent to a smaller input graph based on edge values
 and the general shape of the subgraph.
 
