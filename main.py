@@ -127,8 +127,6 @@ class Graph:
 
         # prevents indefinite loop if subgraph
         # cannot be found (using formula for permutation)
-        # a system to check whether a randomly selected
-        # subgraph has already been chosen hasn't been implemented yet
         total = len(self.all_nodes) + len(input_graph_nodes)
         subgraph_len = len(input_graph_nodes)
         max_loop = math.factorial(total) / math.factorial(total - subgraph_len)
