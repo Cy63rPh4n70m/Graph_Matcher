@@ -29,11 +29,10 @@ the subgraph's matrix contains ones in the same positions as the
 input graph's matrix but still contains ones in other positions).
 The algorithm performs this by subtracting the matrix of the subgraph by
 the matrix of the input graph and validates the shape of the subgraph when
-there are no negative ones.
+there are no negative ones (the **neccessary** connections are satisfied).
 
 ### STAGE 3
-The algorithm checks if the set of edge values in each of the nodes in the **input graph**
-is a sublist of any of the set of edge values in each of the **subgraph nodes**.
-For each node in the **input graph**, obtain the edge values as a list,
+For each node in the **input graph**, the algorithm obtain the edge values of the input node as a list and
 loop through every node of the subgraph, checking if all values in the list is **contained** in 
-the **subgraph nodes** edge values.
+the **subgraph nodes** edge values. This stage filters out subgraphs that have the same node connectedness
+but different edge values.
