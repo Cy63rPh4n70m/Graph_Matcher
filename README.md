@@ -1,4 +1,5 @@
 ## Requirements
+Requires Python 3.11.0
 To install requirements execute `pip install -r requirements.txt`
 
 ## Running the code
