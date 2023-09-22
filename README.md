@@ -33,4 +33,7 @@ there are no negative ones.
 
 ### STAGE 3
 The algorithm checks if the set of edge values in each of the nodes in the **input graph**
-is a subset of any of the set of edge values in each of the **subgraph nodes**.
+is a sublist of any of the set of edge values in each of the **subgraph nodes**.
+For each node in the **input graph**, obtain the edge values as a list,
+loop through every node of the subgraph, checking if all values in the list is **contained** in 
+the **subgraph nodes** edge values.
