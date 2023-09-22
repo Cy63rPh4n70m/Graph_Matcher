@@ -29,7 +29,8 @@ It accomplishes this via three stages:
 
 For each node in the input graph, the algorithm randomly selects
 a node from the main graph that contains the same or more edges as
-the input graph node. Nodes are selected without replacement.
+the input graph node. Nodes are selected without replacement. The selected
+nodes become a subgraph.
 
 ### STAGE 2
 Check if the adjacency matrix of the selected subgraph
