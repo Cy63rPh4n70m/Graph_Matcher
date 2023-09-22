@@ -9,9 +9,9 @@ Test cases contain images of the graphs for validation of results.
  separating the connection names and edge values for each node.)
 
 ## Brief explanation of algorithm
-This algorithm determines whether a graph contains a subgraph
-that is equivalent to a smaller input graph based on edge values
-and the connectiveness.
+This algorithm determines whether an input graph is included in a larger graph 
+based on edge values and the node connectedness, and returns all possible
+subgraphs that match the input graph.
 
 **(The stages are explained in more detail in the comments of `main.py`)**
 
