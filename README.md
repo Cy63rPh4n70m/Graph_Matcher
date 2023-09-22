@@ -33,6 +33,6 @@ there are no negative ones (the **neccessary** connections are satisfied).
 
 ### STAGE 3
 For each node in the **input graph**, the algorithm obtain the edge values of the input node as a list and
-loop through every node of the subgraph, checking if all values in the list is **contained** in 
+loops through every node of the subgraph, checking if all values in the list is **contained** in 
 the **subgraph nodes** edge values. This stage filters out subgraphs that have the same node connectedness
 but different edge values.
