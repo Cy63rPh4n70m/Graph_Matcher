@@ -36,7 +36,7 @@ nodes become a subgraph.
 Check if the adjacency matrix of the selected subgraph
 **contains** the adjacency matrix of the input graph (the subgraph's matrix contains 1s
 in the same positions as the input graph's matrix but may also contain extra 1s in other positions).
-The algorithm performs this by subtracting the matrix of the subgraph by
+The algorithm does this by subtracting the matrix of the subgraph by
 the matrix of the input graph and validates the connectedness of the subgraph when
 the resulting matrix is non-negative (all **essential** node connections are satisfied.)
 
