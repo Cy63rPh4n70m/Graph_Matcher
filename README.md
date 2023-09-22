@@ -47,5 +47,6 @@ one of the **subgraph nodes**. This stage filters out subgraphs that have the sa
 but different edge values.
 
 If the subgraph satisfies all three stages, it is added to the `matching_graphs` list.  
+The above stages are repeated for a finite number of times to try different combinations of selected nodes.
 The algorithm at the end returns the list containing any subgraphs that match the input graph, and accepts
 if the list **is not** empty and rejects otherwise.
